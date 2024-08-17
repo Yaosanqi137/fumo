@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "fumo",
+  "version": "${version}",
+  "name": "fumo",
+  "description": "The mod that I first made",
+  "authors": [
+    "yao37"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/fumo/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.yao37.fumo.client.FumoClient"
+    ],
+    "main": [
+      "org.yao37.fumo.Fumo"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
